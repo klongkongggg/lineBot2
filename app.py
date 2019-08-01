@@ -26,9 +26,9 @@ def callback():
     if (userText == 'สวัสดี') :
         sendText(user,'น่ารัก')
     elif (userText == 'ขี้เหล่') :
-       sendText(user,'ตรงไหน')
+        sendText(user,'ตรงไหน')
     else (userText == 'รึไม่จริง') :
-       sendText(user,'จ้าาาา')
+        sendText(user,'จ้าาาา')
     return '',200
 
 def sendText(user, text):
